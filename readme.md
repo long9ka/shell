@@ -1,31 +1,15 @@
 # Simple Shell
 ## Compile
-```bash 
-osh> g++ src/prog.cpp -o prog
-osh> ./prog 
-```
+![g++ cmd](images/cmd1.png)
+![release exec file](images/cmd2.png)
 ## Features
 ### Overview
-> Example
-```bash 
-osh> ls & la & ll &
-osh> clear
-osh> exit
-```
+![ls](images/cmd3.png)
+![ls& la&ls & ](images/cmd4.png)
+![ll](images/cmd5.png)
 ### History
-> Example
-```bash 
-osh> !!
-osh> history
-```
+![!!](images/cmd6.png)
 ### Redirecting I-O
-> Example
-```bash 
-osh> cat prog.cpp > ex.txt
-osh> sort < ex.txt
-```
+![cat > ](images/cmd7.png)
 ### Pipe
-> Example
-```bash
-osh> cat prog.cpp | grep return
-```
+![cat | grep](images/cmd8.png)
